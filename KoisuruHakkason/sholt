@@ -1,0 +1,11 @@
+#Paiza
+
+## KoisuruHakkason
+
+def f(N, s):
+   return "\n".join([s] * 3)
+N = int(input())
+s = input()
+
+result = f(N, s)
+print(result)
