@@ -1,5 +1,7 @@
 def f(N, S):
-   return "\n".join([S] * 3)
+    return "\n".join([S] * 3)
+
+
 N = int(input())
 S = input()
 
