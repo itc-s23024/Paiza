@@ -1,11 +1,7 @@
-#Paiza
-
-## KoisuruHakkason
-
-def f(N, s):
-   return "\n".join([s] * 3)
+def f(N, S):
+   return "\n".join([S] * 3)
 N = int(input())
-s = input()
+S = input()
 
-result = f(N, s)
+result = f(N, S)
 print(result)
